@@ -50,5 +50,3 @@ console.log(studentai);
 const booleanList = [true, false, true, false, true, false];
 console.log(booleanList);
 
-const random = [1, 'a', true, []];
-console.log(random);
