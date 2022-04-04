@@ -19,15 +19,12 @@ console.log(vidurkis);
 Ciklas = LOOP: for, while, for-in, foreach...
 for- visu ciklu tevas */
 
-const pazymiai = [10, 2, 8, 4, 6, 8];
+const pazymiai = [10, 2, 8, 4, 6];
 
-console.log ('START');
-for (let i=0; i<5; i++) {
-    console.log('Pirmas', i);
+let sumaFor = 0;
+for (let i = 0; i < pazymiai.length; i++) {
+    const pazymys = pazymiai [i];
+    sumaFor += pazymys;
 
+    console.log (`${i}) pazymys ${pazymys} [${sumaFor}]`);
 }
-console.log ('END');
-for (let i=0; i<7; i++) {
-    console.log('Antras', i);
-}
-console.log ('FINISH');
