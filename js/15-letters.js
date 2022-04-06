@@ -30,6 +30,17 @@ function letters(text, step) {
         raides += raide;
     }
 
+    if (step > 0) {
+    for(let i= step - 1; i<text.length; i += step) {
+        const raide = text [i];
+        
+    } 
+      }else {
+        for (let i= text.length + step; i>0; i += step) {
+            const raide = text [i];
+        
+    }
+    }
     return raides;
 }
 
@@ -46,3 +57,4 @@ console.log(letters('abc', 4), '-->', 'ERROR');
 
 console.log(letters('abcdefg', 2), '--->', 'bdf');
 console.log(letters('abcdefghijkl', 3), '--->', 'cfil');
+
